@@ -96,7 +96,7 @@
 </table>
 
     <h3>¿Quieres otra receta?, cantáctanos:</h3>
-    <form id="Formulario">
+    <form action="#" onsubmit="MostrarMensaje(); return false;">
         <fieldset>
             <legend>Contacto</legend>
 
@@ -110,7 +110,7 @@
             <input type="email" name="email" id="email" placeholder="Escribe tu email aqui" required>
 
             <p>Comentario</p>
-            <textarea name="texto" id="texto" cols="20" rows="5"></textarea>
+            <textarea name="texto" id="Comentario" cols="20" rows="5"></textarea>
             <br>
             <input type="submit" name="Enviar" id="Enviar">
         </fieldset>
@@ -118,9 +118,26 @@
    
             <h5>JERONIMO TRINIDAD EDUARDO ISAI</h5>
             <a href="https://github.com/EduardoJeronimo/HTML" target="_blank">Ir a pagina del Administrador</a>
-            <br>
-            <br>
-            <a href="Receta.html" target="_parent">Ir inicio</a>
+            <a>|</a>
             
+            <a href="Receta.html" target="_parent">Ir inicio</a>
+        
+   <script>
+        function MostrarMensaje()
+        {
+            var mensaje = document.getElementById("mensaje");
+            alert("Comensatario Enviado")
+            document.getElementById("Nombre").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("Comentario").value = "";
+
+        }
+    </script>
+
+    
+
+           
+   
+
 </body>
 </html>
