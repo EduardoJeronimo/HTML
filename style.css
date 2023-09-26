@@ -1,0 +1,36 @@
+*{
+    font-size: large;
+}
+p{
+    color: blue;
+    border: 1px solid red;
+}
+#texto{
+    color: red
+}
+.textow{
+    color: green;
+}
+.centro{
+    text-align: center;
+}
+h1{
+    color: rgb(200, 52, 48);
+    border: 1px solid red;
+}
+body{
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fd2a5isokysfowx.cloudfront.net%2Fwp-content%2Fuploads%2F2022%2F03%2Framas-de-la-programacion-scaled-1200x675.jpg&tbnid=KVZO9JlAYhWd9M&vet=12ahUKEwjz8tetpcaBAxVFoYkEHTBcDPIQMygSegUIARCYAQ..i&imgrefurl=https%3A%2F%2Ftalently.tech%2Fblog%2Framas-de-la-programacion%2F&docid=KHyaBPdO2bmdjM&w=1200&h=675&q=programacion&ved=2ahUKEwjz8tetpcaBAxVFoYkEHTBcDPIQMygSegUIARCYAQ);
+    background-repeat: no-repeat;
+    background-color: rgb(149, 227, 255);
+}
+.margin1{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+
+.margin1 > p{
+    margin: 15px;
+}
